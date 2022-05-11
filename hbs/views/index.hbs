@@ -1,0 +1,16 @@
+<h2 class="text-uppercase fs-1 font-monospace text-wrap">Ingrese datos</h2>
+<form action="/productos" method="post">
+  <div class="mb-3">
+    <label for="title" class="form-label fs-4">Título</label>
+    <input type="text" class="form-control" name="title" />
+  </div>
+  <div class="mb-3">
+    <label for="price" class="form-label fs-4">Precio</label>
+    <input type="number" class="form-control" name="price" />
+  </div>
+  <div class="mb-3">
+    <label for="thumbnail" class="form-label fs-4">Link foto</label>
+    <input type="url" class="form-control" name="thumbnail" />
+  </div>
+  <button type="submit" class="btn btn-outline-success d-grid gap-2 fs-3 col-6 mx-auto">Cargar producto</button>
+</form>
